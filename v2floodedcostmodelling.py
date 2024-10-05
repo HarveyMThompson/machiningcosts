@@ -93,7 +93,7 @@ st.write("This application enables you to calculate the total cost of flooded or
 st.markdown("---")
 
 password_guess = st.text_input('What is the password?')
-if password_guess ! = 'scco2':
+if password_guess != 'scco2':
     st.stop()
     
 # Create the input slides - Row 1
