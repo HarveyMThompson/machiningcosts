@@ -92,8 +92,8 @@ st.title("Flooded Cost Modelling Program")
 st.write("This application enables you to calculate the total cost of flooded or scCO2 + MQL cooling")
 st.markdown("---")
 
-if 'pwdcheck' not in st.session_state:
-    st.session_state['pwdcheck'] = 0
+if "pwdcheck" not in st.session_state:
+    st.session_state["pwdcheck"] = 0
     password_guess = st.text_input('What is the password?')
     if password_guess != st.secrets["password"]:
         st.stop()
